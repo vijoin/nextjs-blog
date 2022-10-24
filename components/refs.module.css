@@ -1,0 +1,10 @@
+.container ul {
+    padding: 0px;
+}
+
+.container li {
+ display: inline;
+ /* text-align: center; */
+ padding-left: 3px;
+ padding-right: 3px;
+}

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import Refs from './refs';
 
 const name = 'Victor Inojosa';
 export const siteTitle = "vijoin's Blog!";
@@ -59,6 +60,7 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
+        <Refs />
       </header>
       <main>{children}</main>
       {!home && (
