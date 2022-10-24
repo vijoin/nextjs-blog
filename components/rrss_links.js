@@ -1,7 +1,7 @@
 import Image from "next/image";
-import styles from "./refs.module.css"
+import styles from "./rrss_links.module.css"
 
-export default function Refs() {
+export default function RRSSLinks() {
     return (
         <div className={styles.container}>
             <ul>
